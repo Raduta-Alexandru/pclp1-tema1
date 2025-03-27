@@ -1,0 +1,12 @@
+RADUTA ALEXANDRU - 315CB
+Enuntul temei: https://ocw.cs.pub.ro/courses/programare/teme_2024/tema1_2024_cbd
+La inceputul programului am declarat 3 functii pentru a citii, a afisa si a elibera o matrice
+Functia columnShifting primeste ca input o matrice, marimea ei, numarul coloanei care trebuie rotita si numarul de pozitii cu care o roteste, si returneaza matricea schimbata
+Functia calculatePanelScore primeste ca input o matrice si numarul de coloane, si returneaza un vector de 2 inturi, primul fiind numarul de combinatii castigatoare, iar al doilea este scorul din cadranul de joc
+Functia task1 citeste de la tastatura marimea matricii, o citeste, citeste numarul coloanei care trebuie rotita, numarul de pozitii, iar dupa foloseste functia columnShifting pentru a rotii coloana
+Functia task2 citeste de la tastatura marimea matricii, o citeste, apeleaza functia calculatePanelScore si dupa returneaza nr de combinatii castigatoare si scorul total
+Functia task3 citeste de la tastatura marimea matricii, o citeste, citeste numarul de operatii, si citeste de fiecare data nr de coloana si nr de pozitii rotite, calculeaza scorul de fiecare data si il aduna la total, dupa care il returneaza
+Functia task4 citeste de la tastatura marimea matricii, o citeste, dupa care parcurge pozitiile din cadran, iar inainte de a trece prin fiecare simbol pentru a calcula scorul si a il compara cu maximul, ii salveaza starea initiala a simbolului, si il restaureaza dupa ce incearca fiecare simbol, iar dupa ce incearca pe fiecare pozitie fiecare simbol returneaza scorul maxim pe care l-a gasit
+Functia task5 citeste de la tastatura marimea matricii, o citeste, dupa care trece prin fiecare combinatie de doua coloane, cu care incearca fiecare posibilitate de a le rotii pe cele doua, calculand scorul si comparandul cu maximul. Inainte de a rotii matricea, se face o copie a ei, pentru a putea sa fie restaurata inainte de urmatoare rotire, functia returnand la final cel mai mare scor gasit astfel
+Functia main citeste de la tastatura numarul taskului, dupa care, folosind un switch(task) este continuat programul folosind functia adecvata
+
